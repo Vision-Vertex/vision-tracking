@@ -1,0 +1,104 @@
+#################### Backend specific ####################
+
+# compiled output
+/vision-tracking-backend/dist
+/vision-tracking-backend/node_modules
+/vision-tracking-backend/build
+
+# Logs
+/vision-tracking-backend/logs
+/vision-tracking-backend/*.log
+/vision-tracking-backend/npm-debug.log*
+/vision-tracking-backend/pnpm-debug.log*
+/vision-tracking-backend/yarn-debug.log*
+/vision-tracking-backend/yarn-error.log*
+/vision-tracking-backend/lerna-debug.log*
+
+# OS
+/vision-tracking-backend/.DS_Store
+
+# Tests
+/vision-tracking-backend/coverage
+/vision-tracking-backend/.nyc_output
+
+# IDEs and editors
+/vision-tracking-backend/.idea
+/vision-tracking-backend/.project
+/vision-tracking-backend/.classpath
+/vision-tracking-backend/.c9/
+/vision-tracking-backend/*.launch
+/vision-tracking-backend/.settings/
+/vision-tracking-backend/*.sublime-workspace
+
+# IDE - VSCode
+/vision-tracking-backend/.vscode/*
+!/vision-tracking-backend/.vscode/settings.json
+!/vision-tracking-backend/.vscode/tasks.json
+!/vision-tracking-backend/.vscode/launch.json
+!/vision-tracking-backend/.vscode/extensions.json
+
+# dotenv environment variable files
+/vision-tracking-backend/.env
+/vision-tracking-backend/.env.development.local
+/vision-tracking-backend/.env.test.local
+/vision-tracking-backend/.env.production.local
+/vision-tracking-backend/.env.local
+
+# temp directory
+/vision-tracking-backend/.temp
+/vision-tracking-backend/.tmp
+
+# Runtime data
+/vision-tracking-backend/pids
+/vision-tracking-backend/*.pid
+/vision-tracking-backend/*.seed
+/vision-tracking-backend/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+/vision-tracking-backend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+
+
+#################### Frontend specific ####################
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/vision-tracking-frontend/node_modules
+/vision-tracking-frontend/.pnp
+/vision-tracking-frontend/pnp.*
+/vision-tracking-frontend/.yarn/*
+!/vision-tracking-frontend/.yarn/patches
+!/vision-tracking-frontend/.yarn/plugins
+!/vision-tracking-frontend/.yarn/releases
+!/vision-tracking-frontend/.yarn/versions
+
+# testing
+/vision-tracking-frontend/coverage
+
+# next.js
+/vision-tracking-frontend/.next/
+/vision-tracking-frontend/out/
+
+# production
+/vision-tracking-frontend/build
+
+# misc
+/vision-tracking-frontend/.DS_Store
+/vision-tracking-frontend/*.pem
+
+# debug
+/vision-tracking-frontend/npm-debug.log*
+/vision-tracking-frontend/yarn-debug.log*
+/vision-tracking-frontend/yarn-error.log*
+/vision-tracking-frontend/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+/vision-tracking-frontend/.env*
+
+# vercel
+/vision-tracking-frontend/.vercel
+
+# typescript
+/vision-tracking-frontend/*.tsbuildinfo
+/vision-tracking-frontend/next-env.d.ts
