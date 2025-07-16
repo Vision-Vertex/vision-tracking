@@ -1,6 +1,6 @@
 # Vision Tracking
 
-Vision Tracking is a full-stack project for tracking and analyzing visual data.  
+Vision Tracking is a full-stack project for tracking and employee weekly plan/report, daily plan/report.  
 This is a private, internal project for use within our company.
 
 ## Project Structure
